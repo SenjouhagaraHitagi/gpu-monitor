@@ -1,6 +1,9 @@
 # GPU Monitor
 
 这是一个仅适用于 Windows 的本地 GPU 看板。程序通过 SSH 连接远程服务器，读取 `nvidia-smi` 和进程信息，并在浏览器中集中显示 GPU 利用率、显存、温度、功耗、进程和运行时长。
+This is a local GPU dashboard for Windows only. It connects to remote servers over SSH, reads `nvidia-smi` and process information, and displays GPU utilization, memory usage, temperature, power draw, processes, and run time in a single browser view.
+依据作者在校期间的实验习惯设计的GPU监控面板，可一次同时查看多个服务器的GPU使用情况，并快捷跳转到对应编辑器。主要用于在读时所在实验室，但也许会有一定通用性。
+A GPU monitoring dashboard designed around the author's experimental workflow while studying at university. It lets you check GPU usage across multiple servers at the same time and jump straight to the corresponding editor for each server. It was built primarily for the lab the author was in as a student, but it may be useful more generally.
 
 ## 运行环境
 
